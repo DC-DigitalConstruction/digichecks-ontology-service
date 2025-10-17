@@ -1,0 +1,24 @@
+[project]
+name = "digichecks-ontology-service"
+version = "0.1"
+description = "DigiChecks API for communication with the Ontology"
+readme = "README.md"
+requires-python = ">=3.12.3"
+license = {text = "GPL-3.0-or-later"}
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "alembic==1.13.1",
+    "asyncpg==0.29.0",
+    "fastapi==0.110.0",
+    "passlib==1.7.4",
+    "psycopg2-binary==2.9.9",
+    "pydantic-settings==2.2.1",
+    "python-jose==3.3.0",
+    "python-multipart==0.0.9",
+    "requests==2.32.3",
+    "SQLAlchemy==2.0.28",
+    "uvicorn==0.27.1",
+]
